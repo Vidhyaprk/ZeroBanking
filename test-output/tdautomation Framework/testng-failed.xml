@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [tdautomation Framework]">
+  <test thread-count="5" name="Regression Tests(failed)">
+    <classes>
+      <class name="testcases.TC002Payee">
+        <methods>
+          <include name="addPayee"/>
+        </methods>
+      </class> <!-- testcases.TC002Payee -->
+      <class name="testcases.TC001Login">
+        <methods>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- testcases.TC001Login -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [tdautomation Framework] -->
